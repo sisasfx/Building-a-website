@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="./styles.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
+
         <div class="row" id="header">
-            <img src="./assets/header.jpg" class="img-fluid" alt="imgheaderpf">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Güelcome</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col">
+                <img src="./assets/header.jpg" class="img-fluid" alt="imgheaderpf">
+            </div>
         </div>
-        
+
         <div class="row my-3" id="myProfile">
             <div class="col">
                 <h2>Soy Miquel Ortiz</h2>
                 <h4>de Barcelona desde 1987</h4>
-                <p>Chef de profesión, actualmente estoy estudiando un Grado Superior de Desarrollo de aplicaciones multiplataforma junto con el Bootcamp 4Geeks</p>
+                <p>Chef de profesión, actualmente estoy estudiando un Grado Superior de Desarrollo de aplicaciones
+                    multiplataforma junto con el Bootcamp 4Geeks</p>
             </div>
             <div class="col">
-                <img src="./assets/fotoPerfil.png" class="rounded-circle float-end" id="imagenPerfil" alt="Imagen de Miquel">
+                <img src="./assets/fotoPerfil.png" class="rounded-circle float-end" id="imagenPerfil"
+                    alt="Imagen de Miquel">
             </div>
         </div>
         <div class="row" id="myProfile">
@@ -31,13 +65,15 @@
                 <p>Animador 3D siempre saludaba, actualmente formándome en 4Geeks para ser un Fullstack de infarto. </p>
             </div>
             <div class="col">
-                <img src="./assets/fotomm.jpg" class="rounded-circle float-end" id="imagenPerfil2" alt="Imagen de Mario" width="205px" height="229px">
+                <img src="./assets/fotomm.jpg" class="rounded-circle float-end" id="imagenPerfil2" alt="Imagen de Mario"
+                    width="205px" height="229px">
             </div>
         </div>
-            
+
         <div class="row my-3" id="aboutMe">
             <div class="col">
-                <img src="./assets/ordenador.jpg" class="rounded-circle float-start" id="imagenPC" alt="Imagen de PC" style="height: 229px; width: 205px;">
+                <img src="./assets/ordenador.jpg" class="rounded-circle float-start" id="imagenPC" alt="Imagen de PC"
+                    style="height: 229px; width: 205px;">
             </div>
             <div class="col">
                 <h2>Hard Skills</h2>
@@ -49,10 +85,13 @@
         </div>
         <div class="row" id="aboutMe">
             <div class="col">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse cumque! Mollitia deserunt soluta aliquid maiores perferendis eos similique sapiente necessitatibus natus minima enim expedita suscipit voluptatem, ipsam qui placeat.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, esse cumque! Mollitia deserunt
+                    soluta aliquid maiores perferendis eos similique sapiente necessitatibus natus minima enim expedita
+                    suscipit voluptatem, ipsam qui placeat.</p>
             </div>
             <div class="col">
-                <img src="./assets/aboutmemm.png" class="img-fluid rounded-circle float-end" id="imagenAboutme2" alt="Imagen de Mario About me">
+                <img src="./assets/aboutmemm.png" class="img-fluid rounded-circle float-end" id="imagenAboutme2"
+                    alt="Imagen de Mario About me">
             </div>
         </div>
 
@@ -61,30 +100,30 @@
             <div class="card mx-3" style="width: 18rem;">
                 <img src="./assets/ordenador.jpg" class="card-img-top" alt="img-proyecto">
                 <div class="card-body">
-                  <h5 class="card-title">Ecommerce</h5>
-                  <p class="card-text">This project is about an ecommerce, made it with Angular materials </p>
-                  <a href="#" class="btn btn-primary">Go to Repo!</a>
+                    <h5 class="card-title">Ecommerce</h5>
+                    <p class="card-text">This project is about an ecommerce, made it with Angular materials </p>
+                    <a href="#" class="btn btn-primary">Go to Repo!</a>
                 </div>
-              </div>
-              <div class="card mx-3" style="width: 18rem;">
+            </div>
+            <div class="card mx-3" style="width: 18rem;">
                 <img src="./assets/ordenador.jpg" class="card-img-top" alt="img-proyecto">
                 <div class="card-body">
-                  <h5 class="card-title">LandingPage</h5>
-                  <p class="card-text">This project is a LandingPage made it with React! </p>
-                  <a href="#" class="btn btn-primary">Go to Repo!</a>
+                    <h5 class="card-title">LandingPage</h5>
+                    <p class="card-text">This project is a LandingPage made it with React! </p>
+                    <a href="#" class="btn btn-primary">Go to Repo!</a>
                 </div>
-              </div>
-              <div class="card mx-3" style="width: 18rem;">
+            </div>
+            <div class="card mx-3" style="width: 18rem;">
                 <img src="./assets/ordenador.jpg" class="card-img-top" alt="img-proyecto">
                 <div class="card-body">
-                  <h5 class="card-title">To do List</h5>
-                  <p class="card-text">This project is a to do list, made it with HTML, CSS and JavaScript </p>
-                  <a href="#" class="btn btn-primary">Go to Repo!</a>
+                    <h5 class="card-title">To do List</h5>
+                    <p class="card-text">This project is a to do list, made it with HTML, CSS and JavaScript </p>
+                    <a href="#" class="btn btn-primary">Go to Repo!</a>
                 </div>
-              </div>
+            </div>
         </div>
         <div class="row" id="myRepo">
-            
+
         </div>
 
         <div class="row d-flex justify-content-center" id="myForm">
@@ -104,6 +143,9 @@
             </form>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
